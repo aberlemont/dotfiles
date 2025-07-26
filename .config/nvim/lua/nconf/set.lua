@@ -18,7 +18,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 vim.opt.list = true
-vim.opt.listchars = "eol:.,tab:>-,trail:~,extends:>,precedes:<"
+vim.opt.listchars = "tab:>-,trail:~,extends:>,precedes:<"
 
 vim.opt.number = true
 vim.opt.ruler = true
@@ -52,6 +52,7 @@ vim.opt.smartcase = true
 vim.opt.gdefault = true
 
 -- color / schedme options
+vim.opt.background = "dark"
 vim.opt.termguicolors = true
 
 -- disable mouse
