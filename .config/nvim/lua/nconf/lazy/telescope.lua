@@ -41,6 +41,17 @@ return {
               ["<C-q>"] = smart_send_to_qflist,
           },
         },
+        layout_strategy = 'vertical',
+        layout_config = {
+          width = 0.95,
+          height = 0.95
+        },
+      },
+      pickers = {
+        buffers = {
+            ignore_current_buffer = true,
+            sort_lastused = true,
+        },
       },
     })
 
